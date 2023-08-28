@@ -1,108 +1,102 @@
-
-.main{
+/*  main page */
+body{
     background-color: skyblue;
-    color: black;
-    font-size: large;
-    margin: 20px;
-   
+    box-sizing: border-box;
+    
+}
+h1{
+    display: block;
+    text-align: center;
+   color: black;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
     
 }
 
-.main.az{
-    border: 10px black solid;
-    padding: 20px;
+.main{
+    margin: 0 auto;
+    width: 500px;
+    background-color: lightcyan;
+    border: 5px solid black;
+    padding: 50px 150px 50px 50px;
+
 
 }
-.box1{
-    border: 10px navy double;
-    padding: 20px;
-    background-color: lightcoral;
-    font-family: Arial, Helvetica, sans-serif;
+.i1 img{
+    width: 100%; /* Make the image responsive within its container */
+  max-width: 600px; /* Limit the maximum width of the image */
+  display: block; /* Remove any extra space below the image */
+  margin: 20px auto; /* Center the image horizontally with margin */
+  border: 4px darkblue solid;
 }
-.container{
-    width: 80%;
-    margin: auto;
+.listss{
+    display: flexbox;
+    
+
+    border: 3px black solid;
+    padding: 19px;
+    background-color: #212121d9;
+    width: 100px;
+    margin: 0 auto;
+    
+
+
+
 }
-.main h1{
+ .listss ul a{
     color: white;
-    background-color:black ;
-    text-align: center;
-    font-size: xx-large;
-    font-weight: lighter;
+    list-style: none;
+    text-decoration: none; 
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
 }
-img{
-    width: 600px;
-}
- .imeg{
+.home {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: auto;
+
+    background-color: lightseagreen; 
+    padding:5px;
+    
+    
 }
-
-
-
-.end{
-    background-color: powderblue;
-    text-align: center;
+.home a{
+    color: white;
+    font-size: larger;
+    text-decoration:none;
+    font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-   
-    
-
-    
-}
-.end a{
-    color: purple;
-    font-size: x-large;
-
     
 }
 
-/* bir */
-.box1.bir2{
-    background-color:yellowgreen;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-font-style: italic;    
-font-size: medium;
-}
-.box1.bir1{
-    background-color:lightgoldenrodyellow;
-    color: indigo;
-    font-weight: bold;
-}
-/* chi */
-.box1.c1{
-    background-color:blueviolet;
-    font-style: bold;
-    font-weight: 900;
+.content{
+    background-color: lightcyan;
+    padding: 40px;
+    border: black 3px solid;
+    
     
 }
-.box1.c2{
-    background-color:papayawhip;
-    color: darkolivegreen
-    font-weight: 900;
-    font-family:'Times New Roman', Times, serif
+/* biryani */
+ .main.biryani{
+    background-color: khaki;
+
+ }
+ .main.chicken{
+    background-color: lightslategray;
     
-}
+ }
+ .main.cookie{
+    background-color: lavenderblush
 
-/* coki */
-.box1.co{
-    background-color: lightsalmon;
-}
-
-.box1.coo{
-    background-color: lightseagreen;
-    color: gold;
-    font-size: x-large;
-    font-weight: bold;
-}
-.box1.index{
-    background-color: lightgrey; 
-}
-.last{
-    padding:3px 2px 3px 2px;
-    border: 2px red none;
-    margin: 5px;
-    background-color: lightseagreen
-}
+ }
+ .content.biryani{
+    background-color: whitesmoke
+ }
+ .content.cookie{
+    background-color: lightpink;
+    padding: 20px;
+    margin: 10px auto;
+ }
+ 
